@@ -1,0 +1,46 @@
+.center {
+  text-align: center;
+  color: #0b6da8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: grid;
+  margin: 1rem auto;
+  width: 151px;
+  padding: 8px;
+  background: #b4d8ee;
+  font-size: 16px;
+  border: unset;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.date-box {
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #b4d8ee;
+  border: unset;
+  cursor: pointer;
+}
+
+.para {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.linechart {
+  display: flex;
+  margin: 2rem auto;
+  justify-content: center;
+}
