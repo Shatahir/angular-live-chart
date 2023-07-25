@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": ["lodash"],
+            "allowedCommonJsDependencies": ["highcharts"],
             "outputPath": "dist/line-chart",
             "index": "src/index.html",
             "main": "src/main.ts",
